@@ -1,0 +1,80 @@
+
+
+img{
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+    max-width: 100px;
+    order: -1;
+}
+.card{
+    padding: 3em;
+    background-color: hsl(0,0%,12%);
+    border-radius: 10px;
+    width: 95%;
+    max-width: 320px;
+    margin: auto;
+}
+body{
+    font-family: "Inter",sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(0,0%,8%);
+    color: #fff;
+    height: 100vh;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.25em;
+
+}
+h2{
+    font-size: 0.875rem;
+    color: hsl(75,94%,57%);
+    margin-bottom: 1.5em;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5em;
+
+}
+nav{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btn{
+    padding: 1em 0;
+    background-color: hsl(0,0%,20%);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+a,
+a:visited{
+    color: #fff;
+    font-size: 700;
+    display: block;
+    text-decoration: none;
+
+}
+a:hover,
+a:focus {
+    background-color: hsl(75,94%,57%);
+    color: hsl(0, 0%, 20%);
+
+}
+
+
+
+
+
